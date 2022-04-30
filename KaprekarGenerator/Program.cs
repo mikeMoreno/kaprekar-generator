@@ -35,10 +35,11 @@
             }
 
             const int KaprekarsConstant = 6174;
+            const int MaxIterations = 7;
 
             var nextNumber = startingNumber;
 
-            for (int iteration = 0; iteration < 7; iteration++)
+            for (int iteration = 0; iteration < MaxIterations; iteration++)
             {
                 var paddedNumber = Pad(nextNumber);
 
