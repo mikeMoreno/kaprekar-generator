@@ -27,7 +27,7 @@
         {
             if (
                 startingNumber <= 0 ||
-                Pad(startingNumber).Length > 4 ||
+                startingNumber > 9999 ||
                 !HasAtLeastTwoUniqueDigits(startingNumber)
                )
             {
